@@ -1,0 +1,7 @@
+[project]
+name = "ug-computer-store"
+version = "0.1.0"
+description = "Sasha`s Fedoseev computer store"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
