@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Sasha`s Fedoseev computer store"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "django>=5.2.1",
+    "pillow>=11.2.1",
+    "psycopg2>=2.9.10",
+    "python-dotenv>=1.1.0",
+]
