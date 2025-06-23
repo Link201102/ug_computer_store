@@ -6,20 +6,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}Магазин{% endblock %}</title>
+    <link rel='stylesheet' href="{% static 'styles/main.css'%}">
   </head>
   <body>
-    <header>
-      <div class="header-logo">
-        <a href="#">
-          <img src="{% static 'img/logo.png' %}" alt="logo" />
-        </a>
-      </div>
-      <nav>
-        <p>link</p>
-        <p>link</p>
-        <p>link</p>
-      </nav>
-    </header>
+    {%include 'header.html'%}
     {% block content %} {% endblock %}
   </body>
 </html>

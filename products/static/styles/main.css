@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #eae5e5;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header-logo img {
+    width: 100px;
+}
+
+header nav{
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+header a:hover{
+    color: black;
+    transition: color 0.3s ease;
+}
+
+header a:not(:hover){
+    transition: color 0.3s ease;
+}
